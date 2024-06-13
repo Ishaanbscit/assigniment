@@ -1,0 +1,70 @@
+console.log()->console.log function is used to write information to browser console, good for debugging purposes 
+syntax:-
+<script type="text/JavaScript">
+console.log("hello sir, welcome to cimage");
+<script>
+ 
+confirm function is used to open a confirm / cancel dialog box and return true
+ / false depending on the user click 
+syntax:
+<script type="text/JavaScript"> 
+confirm("login to C- image");
+</script>
+
+prompt function :-create a dialogue box for user input 
+syntax:
+<script type="text/JavaScript> 
+prompt("hello sir, welcome o cimage");
+</script> 
+
+
+variable in JavaScript:- variable are container which hold is reusable data. it is basic unit of storage in a program. the value stored in a variable can be changed during the program execution 
+
+in JavaScript can be declared in the four ways 
+1) automatic variable
+2)using var keyword 
+3)using let keyword 
+4)using const
+
+1) automatic variable:- example x=5;
+y=6;
+z=x+y;
+2)using var keyword:-var keyword is used to declare variable in JavaScript
+syntax:-
+var x="hello";
+some rules to declare variable  in JavaScript   names can contain letter (a to z), digit(0-9),underscore(_),dollar($);
+ii)name must begin with a letter 
+iii)names can also begin with dollar and underscore($ and_).
+iv)names are case sensitive.(a and A are different variable)
+v)reserves are like keyword cannot used as named.
+vi)when do use var, let and const.
+->always use const if value should cannot changed.
+->only use let if we cannot use const.
+->only use var if we must support old browser.
+vii)points related to let and var variable
+->variable defined with let cannot be  redeclare
+for example:-
+
+Assignment operator:-
+JavaScript assignment operator are used to assign the value between two or more variables, some examples of assignment operators are:-
+1)operator:- =,+=,-=, /=,*=, %=,**=
+2)examples:- x=y; , x+=y; x-=y;, x /= y, x *=y; x%=y;, x**=y,
+3)same as:- x=y; , x=x+y ; x-=y; x=x/y, x = x*y, x=x%y ;, x=x**y;
+
+comparison operator:- JavaScript comparison operator  are used in logical in logical statement to determine equality or differences between variables and value some examples of comparisons operator are 
+1)operator:- ==, ===, !=,!==,>,<,>=,<=,
+2)description:- equal to , equal value and equal type, is not equal to,is not equal value or not equal type, greater than , less than,grater than equal to , less than equal to
+
+Access web page element by Using class name 
+write a JavaScript program to access the web page element by using class name 
+document.getElementByclassName();
+
+
+
+
+
+
+
+ 
+
+

@@ -1,0 +1,97 @@
+identifier-it is the name give any component of program.
+variable,array,function,classes,structures,union,namespace etc.
+rules for identifier
+1)no space chartcter other than _(underscorce)is used an identifier.
+2)the first charcter of an identifier must be any alphabet or _(underscorce).
+3)we can used alphabet digit as well as underscorce charter for setting the name of any component as an identifier.
+4)no space are used in b/w the identifier name .
+5)the length of the identifier dependend on the architecture of the compiler.
+6)no reserve word or keyword as a an identifier.
+7)c++ is case-sensitve so small case and capital case latter used for identifier.it is treat as different as for compiler.
+variable:-it is an identifier which changeable during execution of program.
+int a;
+value used for variable may varies during exection of program.
+array:-container of similer types of data elements.
+int a[n]={n}//row indicate.
+int a[],b[]=
+function:-it is a self contain program desigin to avoid multiple or duplicate instruction in the program.
+function for adding two number.
+class:-it is grouping of similar type of object.
+class a
+int a,b;
+public;
+a{}
+{
+cout<<"enter two no";
+cin>>a>>b;
+}
+~a()
+{
+cout<<"the sum of"<<num1<<and<<num2;
+int main()
+{
+a p;
+return 0;
+//obj.show();
+structure:-it is used to mangae the record containing different type of attritubtes of fields.
+syntax
+struct student;
+{
+int name[20];
+int id[18];
+};
+memory sharing concenpt is included  through union
+namesace:-it is used to set the spefic prodecure withn the program as per required.
+constant:-the value used for constant never changed during execution of program.
+example:-numeriac int,float,charcter,string
+//satic intizalition
+
+ entire opertion operter in c++->on the bais of opertors 
+in c++,there are three types opertor frmat used that is as follows
+1)unary opertor=>the operator which is used along with single operand is known as unary opertor
+ex->-,++,--,+etc.
+2)binary opertor=>the opertor which is used along with two operand is known as binary opertor.
+ex->+,-,*,/,etc.
+3)TRINARY->the opertor which is used along with three operand is knowns as trinary opertor
+in C++ conditional opertor is used as a trinary operator.
+condition which is ->?
+if(a>=10)
+cout<<a;
+else
+cout<<a*a;
+(a>=10)?cout<<a:cout<<a*a;
+the varoius opertor in c++as follow 
+1)arthmetic opertor
+2)relational opertor
+3)logical opertor
+4)conditional opertor
+5)assignment opertor
+6)bitwise opertor
+7)sizeof opertor
+8)comma opertor,
+punchuter opertor
+9)opening and closing opertor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
